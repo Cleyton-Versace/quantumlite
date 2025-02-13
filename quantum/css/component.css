@@ -1,0 +1,220 @@
+/*Menu hamburguer*/
+#menu-hamburguer {
+    width: 38px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.hamburguer-content {
+    width: 30px;
+    border-radius: 15px;
+    height: 4px;
+    margin: 2px;
+
+}
+
+.menu-pointer {
+    width: 4px;
+    height: 4px;
+    margin: 4px 0;
+    border-radius: 5px;
+}
+
+.menu-square {
+    width: 4px;
+    height: 7px;
+    margin: 2px 0;
+    animation: menu cubic-bezier(0.77, 0, 0.175, 1) 6s infinite;
+}
+
+@keyframes menu {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#modal {
+    display: none;
+    position: absolute;
+
+}
+
+/*Efeitos Para botoes*/
+.button-1 {
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    background: linear-gradient(to right, #2e2a2a, #ffffff);
+}
+
+.button-1:hover {
+    background: linear-gradient(to right, #ffffff, #2e2a2a);
+    transform: scale(1.05);
+}
+
+.button-2 {
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    background: radial-gradient(circle, #ffffff, #000000);
+}
+
+.button-2:hover {
+    background: radial-gradient(circle, #000000, #ffffff);
+    transform: scale(1.05);
+
+}
+.border-r{
+    border-radius:15px ;
+}
+.border{
+    border: 1px solid;
+}
+
+/*Formulario*/
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*Icones*/
+.icon-user-1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 2px;
+    background-image: url('icone/Icones/icons8-usuário-homem-com-círculo-30.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon-user-2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    margin: 2px;
+    background-image: url('icone/Icones/icons8-male-user-30.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon-whatsapp {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-whatsapp-30.png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon-whatsapp-2 {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-whatsapp-30\ \(1\).png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon-facebook {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-image: url('icone/Icones/icons8-facebook-novo-30.png');
+    cursor: pointer;
+    background-size: cover;
+}
+
+.icon-facebook-2 {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-facebook-novo-30\ \(1\).png');
+    background-size: cover;
+    cursor: pointer;
+}
+
+.icon-x {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-image: url('icone/Icones/icons8-x-30.png');
+    cursor: pointer;
+    background-size: cover;
+}
+
+.icon-x-2 {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-coordenada-x-30.png');
+    background-size: cover;
+    cursor: pointer;
+}
+.icon-linkdin-1{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-linkedin-30.png');
+    background-size: cover;
+    cursor: pointer;
+
+}
+.icon-linkdin-2{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-linkedin-30\ \(1\).png');
+    background-size: cover;
+    cursor: pointer;
+
+}
+.icon-tiktok-1{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-tiktok-30.png');
+    background-size: cover;
+    cursor: pointer;
+
+}
+.icon-tiktok-2{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-tiktok-30\ \(1\).png');
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.icon-notification {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border-radius: 15px;
+    background-image: url('icone/Icones/icons8-lembrete-de-compromissos-30.png');
+    background-size: cover;
+    cursor: pointer;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+input {
+    border: none;
+    padding: 2px;
+    margin: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+/*Classes CSS*/
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+    color: black;
+}
+
+.bg-l-1 {
+    background: linear-gradient(to left, red, yellow);
+}
+
+.bg-l-2 {
+    background: linear-gradient(to left, violet, blue);
+}
+
+.bg-l-3 {
+    background: linear-gradient(to left, orange, yellow);
+}
+
+.bg-r-1 {
+    background: radial-gradient(circle, red, yellow);
+}
+
+.bg-r-2 {
+    background: radial-gradient(circle, violet, blue);
+}
+
+.bg-r-3 {
+    background: radial-gradient(circle, orange, yellow);
+}
+
+.cl-white {
+    color: white;
+}
+
+.cl-black {
+    color: black;
+}
+
+/*IDs CSS*/
+#brand-name {
+    font-size: 28px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#logo {
+    max-width: 48px;
+    min-width: none;
+    width: auto;
+}
+
+@media (max-width:600px) {
+    #logo {
+        display: none;
+    }
+
+}
